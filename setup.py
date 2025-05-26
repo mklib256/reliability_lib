@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mklib",
+    name="reliability_lib",
     version="0.1",
-    packages=["reliability_module"],
+    packages=find_packages(), 
     install_requires=[],
     author="Mikka Kisuule",
     description="A library of functions to be used in the evaluation of reliability in distribution networks",
